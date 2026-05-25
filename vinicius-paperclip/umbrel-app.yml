@@ -1,0 +1,20 @@
+manifestVersion: 1
+id: vinicius-paperclip
+name: Paperclip
+tagline: Open-source orchestration for zero-human companies
+icon: https://raw.githubusercontent.com/paperclipai/paperclip/master/doc/assets/header.png
+category: ai
+version: "2026.525.0"
+port: 3100
+description: >-
+  Paperclip orchestrates teams of AI agents to run autonomous workflows.
+  Manage org charts, budgets, goals, governance and agent coordination
+  from one dashboard. Works with Claude Code, Codex, Hermes and more.
+developer: Paperclip AI
+website: https://paperclip.ing
+submitter: Vinicius
+submission: https://github.com/paperclipai/paperclip
+repo: https://github.com/paperclipai/paperclip
+support: https://discord.gg/m4HZY7xNG3
+releaseNotes: Initial release
+dependencies: []
