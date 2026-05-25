@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+  app_proxy:
+    environment:
+      APP_HOST: vinicius-paperclip_web_1
+      APP_PORT: 3100
+
+  web:
+    image: netspeedy/paperclip:latest
+    container_name: vinicius-paperclip_web_1
+    restart: unless-stopped
+    ports:
+      - "3100:3100"
+    volumes:
+      - ${APP_DATA_DIR}/data/paperclip:/paperclip
+    environment:
+      - PAPERCLIP_PUBLIC_URL=http://umbrel.local:3100
